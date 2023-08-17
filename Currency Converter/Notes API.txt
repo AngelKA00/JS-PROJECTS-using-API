@@ -1,0 +1,4 @@
+Go to exchange rate api website
+Sign up with email address
+We will get API key 
+Use it in script using fetch 

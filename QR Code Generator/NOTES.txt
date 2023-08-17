@@ -1,0 +1,5 @@
+1. In browser, type QR code API.
+
+2. Click goqr.me url.
+
+3. Scroll down to URL, copy and paste it in script tag.

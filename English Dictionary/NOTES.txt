@@ -1,0 +1,7 @@
+1. Go to dictionary API 
+
+2. Open https://dictionaryapi.dev/ amd copy the 2nd linkto script file.
+
+3. At the end change it to ${}, and give the name.
+
+4. From this use whatever info is needed.

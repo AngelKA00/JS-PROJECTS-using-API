@@ -1,0 +1,21 @@
+1. Register as a developer in unsplash.com.
+
+2. Click new application and create one.
+
+3. Open that newly created application.
+
+4. Scroll down and copy down the access keys.
+
+5. Go to documentation from the navigation bar.
+
+6. Click search photos by keyword.
+
+7. Scroll down to see response link.
+
+8. Paste it in browser, it will throw authentication error.
+
+9. Paste access key near query=office as &client_id=our access key -> paste this url in script tag.
+
+10. It will show some codes.
+
+11. From there we can take images and links we wanted and add it to script file as needed.

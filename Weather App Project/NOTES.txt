@@ -1,0 +1,23 @@
+1. Create account in openweather.org.
+
+2. Give purpose as education.
+
+3. Confirm the email address.
+
+4. Click API Keys.
+
+5. Open in new tab -> API from menu (up).
+
+6. Click API document of current weather data.
+
+7. Scroll down to built in API request by city name.
+
+8. Copy the API call and paste it in new tab.
+
+9. Edit the url with city name and API key i.e, our key.
+
+10. All weather details will be fetched in JSON format.
+
+11. In temperature, it will not be in degree celcius, so go to parameters in current weather data and copy metric and paste it in the url -> &units=metric.
+
+12. By doing so we could get temperature with degree celcius.

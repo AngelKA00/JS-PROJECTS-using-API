@@ -1,0 +1,13 @@
+1. Open sharect.js website and scroll down and copy and paste CDN script line in HTML file.
+
+2. Paste the given demos of icons & color change in script file.
+
+3. If we need to add other social media sites to share the text, scroll down and see icon size and url.
+
+4. Open the link given under url and one git hub profile gets opened, from there we can use url of our choice.
+
+5. To get icon, go to icons8 website, search for the icon and download in SVG format.
+
+6. As given in sharect website, icon size must be 24px, so change that in SVG and add it to script file.
+
+7. While adding put comma and {}-> within this tag add -> {icon:'', url:''}

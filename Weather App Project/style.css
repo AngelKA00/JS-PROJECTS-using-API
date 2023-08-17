@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(0, 0, 0);
+}
+.heading h1,h2{
+    text-align: center;
+    padding: 15px;
+    margin-top: 15px;
+}
+.heading h1{
+    color: rgb(176, 57, 209);   
+}
+.heading h2{
+    color: rgb(176, 57, 209);    
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    background : linear-gradient(135deg,#b384c9,rgb(86, 46, 102));
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px; /*between card and outside*/
+    text-align: center; /*placing card in the center*/
+}
+.search{
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; /*search icon and card*/
+}
+/*text box and card*/
+.search input{
+    border: 0;
+    outline: 0;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    margin-right: 16px;
+    font-size: 18px;
+    flex: 1;
+    background: rgb(237, 218, 231);
+    color: black;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #fff;
+}
+.search button img{
+    width: 20px; /*image inside button tag will look good*/
+}
+/*all weather icons*/
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1{ /*names given*/
+    font-weight: 500;
+    font-size: 60px;
+}
+.weather h2{
+    font-weight: 400;
+    font-size: 35px;
+    /*margin-top: -10px;*/
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /*to keep icons in left & right side*/
+    padding: 0px 20px; /*space between card and icons*/
+    margin-top: 40px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 60px;
+    margin-right: 10px;
+}
+.humidity, .wind{
+    font-size: 20px;
+    /*margin-top: -6px;*/
+}
+/*only search box should be visible */
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}

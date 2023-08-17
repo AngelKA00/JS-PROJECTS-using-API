@@ -1,0 +1,7 @@
+1. Go to mealdb.com https://www.themealdb.com/
+
+2. Click on API and scroll down till search recipes with name.
+
+3. Copy that and paste it in script file.
+
+4. Edit the last word with query, to let user search the name. 

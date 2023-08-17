@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(104, 187, 187);
+}
+.heading h1{
+    text-align: center;
+    padding: 60px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+.container{
+    width: 400px;
+    padding: 25px 35px;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.container p{
+    font-weight: 600;
+    font-size:15px ;
+    margin-bottom:8px ;
+}
+.container input{
+    width: 100%;
+    height: 50px;
+    outline: 0;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(2, 73, 64);
+}
+.container button{
+    width: 100%;
+    height: 50px;
+    outline: 0;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(114, 246, 246);
+    color: black;
+    font-weight: 500;
+    box-shadow: 0 10 10 rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+/*when user did not add any text*/
+.error{
+    animation: shake 0.1s linear 10;
+}
+/*shaking timing*/
+@keyframes shake{
+    0%{
+        transform: translateX(0);/*no movement*/
+    }
+    25%{
+        transform: translateX(-2px);/*goes to left*/
+    }
+    50%{
+        transform: translateX(0);/*again no movement*/
+    }
+    75%{
+        transform: translateX(2px);/*goes to right*/
+    }
+}

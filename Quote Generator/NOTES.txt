@@ -1,0 +1,11 @@
+1. Type dailyquotes API and open lukepeavey link.
+
+2. Scroll down, paste the API server link in browser and add given below random lines to generate code.
+
+3. Add that url in the script file.
+
+FOR TWITTER,
+
+1. Go to twitter share link, developer.twitter.
+
+2. Scroll down, paste pre populate tweet text link in scrpt file.
